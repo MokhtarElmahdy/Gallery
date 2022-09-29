@@ -1,0 +1,26 @@
+.caption{
+    width:80%;
+    bottom: 20px;
+    background-color: #fff;
+    left: 50%;
+
+}
+
+
+#lightBox{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+    display: none;
+}
+
+#item{
+    width: 25%;
+    height: 350px;
+    background-image: url(../img/portfolio-1.jpg);
+    background-size: cover;
+}
